@@ -1,0 +1,303 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"up",
+				"upperbound"
+			],
+			[
+				"get",
+				"getMonthString"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "template.cpp",
+			"settings":
+			{
+				"buffer_size": 174,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "#include <iostream>\n#include <vector>\n\n#define endl '\\n'\n\nusing namespace std;\n\nconst int precision = 2;\n\ndouble leibniz(int n) {\n    if (n % 2 == 0) {\n        return 4.0 / (static_cast<double>(2 * n) + 1);\n    }\n    return -4.0 / (static_cast<double>(2 * n) + 1);\n}\n\n\n\nint main(int argc, char** argv)\n{\n    ios_base::sync_with_stdio(false);\n\n    cout << \"Compute pi with precision of \" << precision << \" decimal digits\" << endl;\n\n    return 0;\n}",
+			"file": "1_math/13_pi.cpp",
+			"file_size": 174,
+			"file_write_time": 131822582229253626,
+			"settings":
+			{
+				"buffer_size": 446,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"package list",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"packag",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 178.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/huneeda/modern_cpp_challenge",
+		"/home/huneeda/modern_cpp_challenge/1_math"
+	],
+	"file_history":
+	[
+		"/home/huneeda/modern_cpp_challenge/1_math/12_collatz_conjecture.cpp",
+		"/home/huneeda/modern_cpp_challenge/1_math/11_roman_number.cpp",
+		"/home/huneeda/modern_cpp_challenge/1_math/9_prime_factors.cpp",
+		"/home/huneeda/modern_cpp_challenge/1_math/10_gray_code.cpp",
+		"/home/huneeda/modern_cpp_challenge/1_math/8_armstrong_numbers.cpp",
+		"/home/huneeda/modern_cpp_challenge/1_math/6_abundant_numbers.cpp",
+		"/home/huneeda/modern_cpp_challenge/1_math/7_amicable_numbers.cpp",
+		"/home/huneeda/modern_cpp_challenge/6_abundant_numbers.cpp",
+		"/home/huneeda/modern_cpp_challenge/1_math/5_sexy_prime_pairs.cpp",
+		"/home/huneeda/modern_cpp_challenge/1_math/4_largest_prime_smaller_than_given_number.cpp",
+		"/home/huneeda/modern_cpp_challenge/1_math/2_gcd.cpp",
+		"/home/huneeda/modern_cpp_challenge/1_math/3_lcm.cpp",
+		"/home/huneeda/functional_programming/fp101/1_exercise.hs",
+		"/home/huneeda/functional_programming/fp101/test.hs",
+		"/home/huneeda/haskell/jeehun.song_271593/project5.hs",
+		"/home/huneeda/functional_programming/test.hs",
+		"/home/huneeda/haskell/module1.hs"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"longestCollatzSeuquence",
+			"string",
+			"\",",
+			"'",
+			"to_string",
+			"getRomanChar",
+			"input",
+			"2",
+			"input",
+			";\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "template.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 174,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								174,
+								174
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/C++11/C++11.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "1_math/13_pi.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 446,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								212,
+								212
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++11/C++11.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sublime_haskell_output_panel":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "modern_cpp_challenge.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 149.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
