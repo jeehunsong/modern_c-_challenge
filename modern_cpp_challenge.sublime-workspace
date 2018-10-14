@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"lei",
+				"leibnizLowerbound"
+			],
+			[
 				"up",
 				"upperbound"
 			],
@@ -20,18 +24,6 @@
 			"settings":
 			{
 				"buffer_size": 174,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "#include <iostream>\n#include <vector>\n\n#define endl '\\n'\n\nusing namespace std;\n\nconst int precision = 2;\n\ndouble leibniz(int n) {\n    if (n % 2 == 0) {\n        return 4.0 / (static_cast<double>(2 * n) + 1);\n    }\n    return -4.0 / (static_cast<double>(2 * n) + 1);\n}\n\n\n\nint main(int argc, char** argv)\n{\n    ios_base::sync_with_stdio(false);\n\n    cout << \"Compute pi with precision of \" << precision << \" decimal digits\" << endl;\n\n    return 0;\n}",
-			"file": "1_math/13_pi.cpp",
-			"file_size": 174,
-			"file_write_time": 131822582229253626,
-			"settings":
-			{
-				"buffer_size": 446,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -90,6 +82,12 @@
 	],
 	"file_history":
 	[
+		"/home/huneeda/modern_cpp_challenge/1_math/Note_from_solution.cpp",
+		"/home/huneeda/modern_cpp_challenge/1_math/5_sexy_prime_pairs.cpp",
+		"/home/huneeda/modern_cpp_challenge/1_math/Note_from_solution.txt",
+		"/home/huneeda/modern_cpp_challenge/1_math/13_pi.cpp",
+		"/home/huneeda/modern_cpp_challenge/1_math/14_validating_isbns.cpp",
+		"/home/huneeda/modern_cpp_challenge/14_validating_isbns.cpp",
 		"/home/huneeda/modern_cpp_challenge/1_math/12_collatz_conjecture.cpp",
 		"/home/huneeda/modern_cpp_challenge/1_math/11_roman_number.cpp",
 		"/home/huneeda/modern_cpp_challenge/1_math/9_prime_factors.cpp",
@@ -98,7 +96,6 @@
 		"/home/huneeda/modern_cpp_challenge/1_math/6_abundant_numbers.cpp",
 		"/home/huneeda/modern_cpp_challenge/1_math/7_amicable_numbers.cpp",
 		"/home/huneeda/modern_cpp_challenge/6_abundant_numbers.cpp",
-		"/home/huneeda/modern_cpp_challenge/1_math/5_sexy_prime_pairs.cpp",
 		"/home/huneeda/modern_cpp_challenge/1_math/4_largest_prime_smaller_than_given_number.cpp",
 		"/home/huneeda/modern_cpp_challenge/1_math/2_gcd.cpp",
 		"/home/huneeda/modern_cpp_challenge/1_math/3_lcm.cpp",
@@ -151,7 +148,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -174,34 +171,6 @@
 						"settings":
 						{
 							"auto_name": "",
-							"syntax": "Packages/C++11/C++11.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "1_math/13_pi.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 446,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								212,
-								212
-							]
-						],
-						"settings":
-						{
 							"syntax": "Packages/C++11/C++11.tmLanguage"
 						},
 						"translation.x": 0.0,

@@ -5,6 +5,8 @@
 
 using namespace std;
 
+const int differ = 6;
+
 int solve(int x)
 {
     vector<bool> isPrime(x, true);
@@ -17,9 +19,9 @@ int solve(int x)
             }
         }
     }
-    for (int i = 3 ; i + 2 < isPrime.size() ; i += 2) {
-        if (isPrime[i] && isPrime[i + 2])
-            cout << "(" << i << ", " << (i + 2) << ")" << endl;
+    for (int i = 3 ; i + differ < isPrime.size() ; i += 2) {
+        if (isPrime[i] && isPrime[i + differ])
+            cout << "(" << i << ", " << (i + differ) << ")" << endl;
     }
     return -1;
 }
@@ -30,7 +32,7 @@ int main(int argc, char** argv)
 
     int x;
 
-    cout << "Press the limit to get prime pairs" << endl;
+    cout << "Press the limit to get Sexy prime pairs" << endl;
     cin >> x;
     solve(x);
 
