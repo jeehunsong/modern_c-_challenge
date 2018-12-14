@@ -27,6 +27,15 @@
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "2_language_features/sol_17_Creating_a_2d_array_with_basic_operation.cpp",
+			"settings":
+			{
+				"buffer_size": 3434,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
@@ -78,10 +87,22 @@
 	"expanded_folders":
 	[
 		"/home/huneeda/modern_cpp_challenge",
-		"/home/huneeda/modern_cpp_challenge/1_math"
+		"/home/huneeda/modern_cpp_challenge/1_math",
+		"/home/huneeda/modern_cpp_challenge/2_language_features"
 	],
 	"file_history":
 	[
+		"/home/huneeda/modern_cpp_challenge/2_language_features/sol_16_Enumerating_IPv4_addresses_in_a_range.cpp",
+		"/home/huneeda/modern_cpp_challenge/2_language_features/sol_15_IPv4_data_type.cpp",
+		"/home/huneeda/modern_cpp_challenge/2_language_features/22_Literals_of_various_temperature_scales.cpp",
+		"/home/huneeda/modern_cpp_challenge/2_language_features/21_system_handle_wrapper.cpp",
+		"/home/huneeda/modern_cpp_challenge/2_language_features/20_container_any_all_none.cpp",
+		"/home/huneeda/modern_cpp_challenge/2_language_features/19_Adding_a_range_of_values_to_a_container.cpp",
+		"/home/huneeda/modern_cpp_challenge/20_container_any_all_none.cpp",
+		"/home/huneeda/modern_cpp_challenge/2_language_features/18_Minimum_function_with_any_number_of_arguments.cpp",
+		"/home/huneeda/modern_cpp_challenge/2_language_features/17_Creating_a_2d_array_with_basic_operation.cpp",
+		"/home/huneeda/modern_cpp_challenge/2_language_features/15_IPv4_data_type.cpp",
+		"/home/huneeda/modern_cpp_challenge/2_language_features/16_Enumerating_IPv4_addresses_in_a_range.cpp",
 		"/home/huneeda/modern_cpp_challenge/1_math/Note_from_solution.cpp",
 		"/home/huneeda/modern_cpp_challenge/1_math/5_sexy_prime_pairs.cpp",
 		"/home/huneeda/modern_cpp_challenge/1_math/Note_from_solution.txt",
@@ -121,6 +142,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"contains_any",
+			"int y",
+			"int",
+			"int x",
+			"address",
+			"0",
 			"longestCollatzSeuquence",
 			"string",
 			"\",",
@@ -148,7 +175,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -172,6 +199,36 @@
 						{
 							"auto_name": "",
 							"syntax": "Packages/C++11/C++11.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "2_language_features/sol_17_Creating_a_2d_array_with_basic_operation.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3434,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								481,
+								481
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++11/C++11.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -264,7 +321,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 149.0,
+	"side_bar_width": 198.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
