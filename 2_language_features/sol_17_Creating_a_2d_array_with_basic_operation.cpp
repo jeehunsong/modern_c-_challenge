@@ -5,6 +5,18 @@
 
 using namespace std;
 
+/*
+    1. Get template argument class, size, size
+        - Constant size
+    2. Use operator(), not []
+        because () can get multiple arguments
+    3. std::array vs std::vector
+        Only std::vector can be constructed from std::initializer_list
+        Move is implemented with std::initialize_list automatically
+    4. std::vector<std::vector T>(C, std::vector(R)) vs std::vector<T>(C * R)
+        Latter has a smaller memory footprint
+*/
+
 template <typename T>
 class TwoDimArray {
 public:

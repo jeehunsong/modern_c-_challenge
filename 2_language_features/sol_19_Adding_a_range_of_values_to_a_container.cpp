@@ -5,7 +5,10 @@
 
 using namespace std;
 
-// TOTALLY FAIL
+/*
+    1. Use variadic
+    2. Use std::copy (begin, end, ostream_iterator<type>(std::cout, " ")) to print list
+*/
 
 template <typename ContainerType, typename ValueType>
 void add(ContainerType& container, const ValueType& value)
